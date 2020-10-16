@@ -1,0 +1,41 @@
+
+:root {
+    --title-color: #322153; 
+    --primary-color: #34cb79;
+}
+
+* {/*tira os epaços naturais de todos elementos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*a borda da caixa será o limite*/
+
+}
+
+html {/* block, tipo de caixa <h1> por exemplo um em baixo do outro*/
+    font-family: 'Roboto', sans-serif;    
+}
+
+/*header {
+    display: block;
+    align-items: center;
+    justify-content: space-beteween; ---- havia esquecido esperando analise
+*/}
+/* corpo de caixa no html cada tag é uma cixa, basicamente uma caixa dentro da outra. Tipo: body/div etc...*/
+/* toda caixa tem Margin Border Padding Largua*/
+body {
+     background: #f0f0f5;
+     -webkit-font-smoothing: antialiased;
+}
+
+
+a {/* display inline se for outro a fica um do lado do outro, em linha in line tipo de caixa*/
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+
+ 
